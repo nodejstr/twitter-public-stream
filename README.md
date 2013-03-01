@@ -1,11 +1,11 @@
 twitter-public-stream
 =====================
 
-forked from (https://github.com/aivis/user-stream)
+forked from https://github.com/aivis/user-stream
 
 ### Version: 0.0.1 ###
 
-Simple Node.js Twitter (API 1.1) user stream client (https://dev.twitter.com/docs/streaming-apis/streams/public)
+Simple Node.js Twitter (API 1.1) user stream client https://dev.twitter.com/docs/streaming-apis/streams/public
 
 Install
 -------
@@ -14,7 +14,7 @@ Install
 Usage
 -------
 ```javascript
-var Stream = require('user-stream');
+var Stream = require('twitter-public-stream');
 var stream = new Stream({
     consumer_key: '',
     consumer_secret: '',

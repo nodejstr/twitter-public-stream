@@ -1,16 +1,24 @@
 {
-  "name": "twitter-public-stream",
-  "version": "0.0.1",
-  "description": "Simple twitter public stream client. Only one dependency (oauth).",
-  "keywords": [
-    "twitter",
-    "streaming",
-	"public stream"
-  ],
-  "author": {
-    "name": "Salim KAYABAŞI"
-  },
-  "dependencies": {
-    "oauth": "latest"
-  }
+    "name":"twitter-public-stream",
+    "version":"0.0.1",
+    "description":"Simple twitter public stream client. Only one dependency (oauth).",
+    "keywords":[
+        "twitter",
+        "streaming",
+        "public stream"
+    ],
+    "author":{
+        "name":"Salim KAYABAŞI"
+    },
+    "repository":{
+        "type":"git",
+        "url":"git@github.com:nodejstr/twitter-public-stream.git"
+    },
+    "dependencies":{
+        "oauth":"latest"
+    }
 }
+
+
+
+
