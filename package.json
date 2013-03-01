@@ -12,7 +12,7 @@
     },
     "repository":{
         "type":"git",
-        "url":"git@github.com:nodejstr/twitter-public-stream.git"
+        "url":"git://github.com/nodejstr/twitter-public-stream.git"
     },
     "dependencies":{
         "oauth":"latest"
