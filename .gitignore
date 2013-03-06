@@ -2,6 +2,8 @@
 ## NodeJS
 #################
 /node_modules/*
+.idea
+/example/config.js
 
 #################
 ## Eclipse

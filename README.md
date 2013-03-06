@@ -1,18 +1,14 @@
-twitter-public-stream
-=====================
+twitter-public-stream - 0.0.2
+=============================
 
-forked from https://github.com/aivis/user-stream
-
-### Version: 0.0.1 ###
-
-Simple Node.js Twitter (API 1.1) user stream client https://dev.twitter.com/docs/streaming-apis/streams/public
+Simple Node.js Twitter (API 1.1) public stream client https://dev.twitter.com/docs/streaming-apis/streams/public
 
 Install
--------
+---------
 ```npm install twitter-public-stream```
 
 Usage
--------
+---------
 ```javascript
 var Stream = require('twitter-public-stream');
 var stream = new Stream({
@@ -33,7 +29,7 @@ stream.on('data', function(json) {
 ```
 
 Events
--------
+---------
 - ```data```        - stream data in JSON format
 - ```garbage```     - stream data who can't be parsed to JSON
 - ```close```       - stream close event (stream connection closed)
@@ -42,6 +38,17 @@ Events
 - ```heartbeat```   - twitter emitted heartbeat
 
 Methods
--------
+---------
 - ```stream```  - create stream connection
 - ```destroy``` - destroy/close stream connection
+
+ChangeLog 
+---------
+
+### Version: 0.0.2 ###
+
+Added new examles and ```changeParams``` method
+
+### Version: 0.0.1 ###
+
+forked from https://github.com/aivis/user-stream

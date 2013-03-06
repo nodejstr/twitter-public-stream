@@ -1,7 +1,7 @@
 {
     "name":"twitter-public-stream",
-    "version":"0.0.1",
-    "description":"Simple twitter public stream client. Only one dependency (oauth).",
+    "version":"0.0.2",
+    "description":"Simple twitter public stream client",
     "keywords":[
         "twitter",
         "streaming",
@@ -15,10 +15,7 @@
         "url":"git://github.com/nodejstr/twitter-public-stream.git"
     },
     "dependencies":{
-        "oauth":"latest"
+        "oauth":"*"
+        ,"underscore":"*"
     }
 }
-
-
-
-
