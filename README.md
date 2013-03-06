@@ -47,7 +47,7 @@ ChangeLog
 
 ### Version: 0.0.2 ###
 
-Added new examles and ```changeParams``` method
+Added new examples and ```changeParams``` method
 
 ### Version: 0.0.1 ###
 
